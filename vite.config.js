@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [react()],
   css: {
     postcss: true
-  }
+  },
+  base: '/',
 })
