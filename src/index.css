@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-netflix-red text-white px-4 py-2 rounded hover:bg-red-700;
+  }
+  .input-field {
+    @apply w-full p-2 border border-gray-600 rounded 
+    bg-gray-700 text-white
+    focus:outline-none focus:ring-2 focus:ring-netflix-red
+    placeholder-gray-400;
+  }
+}
+
+/* basic page defaults */
+body {
+  @apply bg-netflix-black text-white;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
